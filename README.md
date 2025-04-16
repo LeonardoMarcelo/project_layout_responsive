@@ -33,7 +33,7 @@ Responsividade	Eficiente com flex-wrap	Precisa ajustar as áreas do grid
 Leitura do código	Mais direto, mas menos visualmente claro	Mais semântico com grid-template-areas
 Controle de layout	Limitado a 1 dimensão por vez	Controle bidimensional (linhas e colunas)
 
-Acesso layout Grid + flex : https://leonardomarcelo.github.io/project_layout_responsive/layout_grid.html
+Acesso layout Grid + flex : https://leonardomarcelo.github.io/project_layout_responsive/layout_grid.html   <br>
 Acesso Layout Flexbox : https://leonardomarcelo.github.io/project_layout_responsive/laytoutf_flex.html
 
 ✅ Conclusão
