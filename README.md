@@ -33,6 +33,9 @@ Responsividade	Eficiente com flex-wrap	Precisa ajustar as áreas do grid
 Leitura do código	Mais direto, mas menos visualmente claro	Mais semântico com grid-template-areas
 Controle de layout	Limitado a 1 dimensão por vez	Controle bidimensional (linhas e colunas)
 
+Acesso layout Grid + flex : https://leonardomarcelo.github.io/project_layout_responsive/layout_grid.html
+Acesso Layout Flexbox : https://leonardomarcelo.github.io/project_layout_responsive/laytoutf_flex.html
+
 ✅ Conclusão
 Ambos os métodos são eficientes e têm seus méritos.
 O Flexbox é ótimo para componentes lineares e layouts simples, enquanto o CSS Grid, quando combinado com Flexbox, é ideal para estruturas mais complexas e layouts mais organizados visualmente.
