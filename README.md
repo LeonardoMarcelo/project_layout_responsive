@@ -36,5 +36,3 @@ Controle de layout	Limitado a 1 dimensão por vez	Controle bidimensional (linhas
 ✅ Conclusão
 Ambos os métodos são eficientes e têm seus méritos.
 O Flexbox é ótimo para componentes lineares e layouts simples, enquanto o CSS Grid, quando combinado com Flexbox, é ideal para estruturas mais complexas e layouts mais organizados visualmente.
-
-<a href="https://google.com" target="_blank">CLICK</a>
