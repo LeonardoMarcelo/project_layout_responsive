@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout com Flexbox</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: sans-serif;
+    }
+    
+    header, nav, main, section, article, aside, footer {
+      padding: 10px;
+      border: 2px solid;
+    }
+    
+    header {
+      border-color: limegreen;
+    }
+    
+    nav {
+      border-color: gold;
+      background-color: #222;
+      margin-top: 10px;
+    }
+    
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-color: green;
+      margin-top: 10px;
+    }
+    
+    .content {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .content > section {
+      border-color: gold;
+      padding: 10px;
+    }
+    
+    .content article {
+      border: 2px solid blue;
+      padding: 5px;
+      margin: 5px 0;
+    }
+    
+    aside {
+      flex: 1;
+      min-width: 200px;
+      border-color: gold;
+      padding: 10px;
+    }
+    
+    aside section {
+      border: 2px solid blue;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    
+    footer {
+      margin-top: 10px;
+      border-color: limegreen;
+    }
+    
+    /* Responsivo */
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+    
+      .content, aside {
+        flex: 1 1 100%;
+      }
+    
+      aside {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+      }
+    
+      aside section {
+        min-width: 150px;
+        flex-shrink: 0;
+        margin-right: 10px;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav>nav</nav>
+  </header>
+
+  <main>
+    <div class="content">
+      <section>
+        <article>article</article>
+        <article>article</article>
+        <article>article</article>
+      </section>
+      <section>section</section>
+    </div>
+
+    <aside>
+      <section>section</section>
+      <section>section</section>
+    </aside>
+  </main>
+
+  <footer>footer</footer>
+</body>
+</html>
